@@ -168,9 +168,9 @@
      <build>
         <plugins>
             <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.2.11.v20150529</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
@@ -181,8 +181,8 @@
 		<!-- CODE COVERAGE -->
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
- 		        <artifactId>jacoco-maven-plugin</artifactId>
- 		        <version>0.7.2.201409121644</version>
+ 		       <artifactId>jacoco-maven-plugin</artifactId>
+                       <version>0.8.4</version>
  		        <executions>
  		            <execution>
  		                <id>jacoco-initialize</id>
